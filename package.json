@@ -1,0 +1,25 @@
+{
+  "name": "fantasy-ball-app",
+  "version": "1.0.0",
+  "description": "app to visualize the data of fantasy bball",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seanruhland/fantasyball-app.git"
+  },
+  "author": "Sean Ruhland",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seanruhland/fantasyball-app/issues"
+  },
+  "homepage": "https://github.com/seanruhland/fantasyball-app#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.0.11",
+    "nodemon": "^1.17.2",
+    "xray": "^0.5.1"
+  }
+}
