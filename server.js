@@ -1,6 +1,8 @@
 var express = require('express')
 var app = express()
 var mongoose = require('mongoose')
+var x = require('x-ray')();
+
 
 //connect to database
 mongoose.connect('mongodb://localhost:27017/blog')

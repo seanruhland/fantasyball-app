@@ -4,7 +4,7 @@
   "description": "app to visualize the data of fantasy bball",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "webpack-dev-server --open"
   },
   "repository": {
     "type": "git",
@@ -12,14 +12,36 @@
   },
   "author": "Sean Ruhland",
   "license": "ISC",
+  "babel": {
+    "presets": [
+      "env",
+      "react"
+    ]
+  },
   "bugs": {
     "url": "https://github.com/seanruhland/fantasyball-app/issues"
   },
   "homepage": "https://github.com/seanruhland/fantasyball-app#readme",
   "dependencies": {
+    "axios": "^0.18.0",
     "express": "^4.16.3",
     "mongoose": "^5.0.11",
-    "nodemon": "^1.17.2",
-    "xray": "^0.5.1"
+    "mysql": "^2.16.0",
+    "nba": "^4.3.0",
+    "nodemon": "^1.18.4",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-router-dom": "^4.3.1",
+    "request": "^2.88.0",
+    "x-ray": "^2.3.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.20.2",
+    "webpack-dev-server": "^3.1.9"
   }
 }
