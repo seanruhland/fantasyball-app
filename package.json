@@ -4,7 +4,8 @@
   "description": "app to visualize the data of fantasy bball",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --open"
+    "start": "webpack-dev-server --open",
+    "build": "run build"
   },
   "repository": {
     "type": "git",
@@ -42,6 +43,7 @@
     "babel-preset-react": "^6.24.1",
     "html-webpack-plugin": "^3.2.0",
     "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
     "webpack-dev-server": "^3.1.9"
   }
 }
